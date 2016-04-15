@@ -18,3 +18,12 @@ $ docker run -d -p 8080:8080 congenial-couscous:v1
 ```
 
 Try at http://$(docker-machine ip):8080/
+
+# Elastic Beanstalk
+
+```Shell
+$ eb init
+$ eb local run
+```
+
+Try at http://$(docker-machine ip):8080/
